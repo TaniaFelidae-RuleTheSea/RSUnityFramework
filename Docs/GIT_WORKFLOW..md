@@ -1,18 +1,23 @@
+## 🧠 Git Workflow & Branching Model
 
----
+We adopt the **Gitflow / branching model** as described by nvie.com:  
+https://nvie.com/posts/a-successful-git-branching-model/
 
-## 📚 Documentation Index
+### 📂 Branch Types & Purpose
 
-| Document | Description |
-|-----------|-------------|
-| [**DEVELOPMENT_RULES.md**](Docs/DEVELOPMENT_RULES.md) | Coding and folder structure rules for all Unity developers. (not ready) |
-| [**GIT_WORKFLOW.md**](Docs/GIT_WORKFLOW.md) | Branch naming, commit style, and merge policy. |
-| [**NAMING_CONVENTION.md**](Docs/NAMING_CONVENTION.md) | Standards for naming assets, scripts, and scenes. |
+| Branch | Purpose |
+|--------|---------|
+| `main` | Contains production-ready releases only. |
+| `develop` | Integration branch for the next release. |
+| `feature/<name>` | Branch off `develop` for a new feature. |
+| `release/<version>` | Created when `develop` is ready for a release. |
+| `bugfix/<name>` | Created when `develop` need bug fix |
+| `experimental/<name>` | Branch off `any` to experiement on new feature. |
 
----
+### 🛠 Workflow Rules
 
-## 🚀 Quick Start
-
-1. Clone this repo:
+**Start new features from `develop`**:
    ```bash
-   git clone https://github.com/<your-org>/<your-repo>.git
+   git checkout develop
+   git pull
+   git checkout -b feature/your-feature-name
