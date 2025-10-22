@@ -33,9 +33,8 @@ namespace RSFramework
             CreateFolder(Path.Combine(assetsPath, "Game"), "___Prefab___");
             CreateFolder(Path.Combine(assetsPath, "Game"), "___Render___");
             // Scripts folder
-            var scriptsPath = Path.Combine(assetsPath, "Game", "___Script___");
-            CreateFolder(scriptsPath, "___Script___");
-            CreateAssemblyDefinition(scriptsPath, "Game");
+            CreateFolder(Path.Combine(assetsPath, "Game"), "___Script___");
+            CreateAssemblyDefinition(Path.Combine(assetsPath, "Game", "___Script___"), "Game");
             //
             CreateFolder(Path.Combine(assetsPath, "Game"), "___Sound___");
             CreateFolder(Path.Combine(assetsPath, "Game"), "___Texture___");
