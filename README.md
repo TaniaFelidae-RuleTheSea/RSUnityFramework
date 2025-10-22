@@ -13,6 +13,5 @@
 
 ## 🚀 Quick Start
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/<your-org>/<your-repo>.git
+1. Install Unity LTS: 6000.0.60f1
+2. [Updating]
