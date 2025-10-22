@@ -14,7 +14,7 @@
 ## 🚀 Quick Start
 
 1. Install Unity LTS: 6000.0.60f1
-2. Install framwork in Unity Package Manager 
+2. Install framework in Unity Package Manager 
    - Add package from URL => https://github.com/TaniaFelidae-RuleTheSea/RSUnityFramework.git?path=Packages/com.rulethesea.rsunityframework#main
 3. MenuBar => RSTools => Project Structure => Construct Folder Structure
    - All the project script should in this direction: "Game/___ Script ___"
