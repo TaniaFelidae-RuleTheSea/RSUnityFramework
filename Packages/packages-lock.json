@@ -21,6 +21,12 @@
       "dependencies": {},
       "hash": "b413fa2115cb8d1a321f988aa5f9833b14b2a6e3"
     },
+    "com.rulethesea.rsunityframework": {
+      "version": "file:com.rulethesea.rsunityframework",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.9",
       "depth": 0,
